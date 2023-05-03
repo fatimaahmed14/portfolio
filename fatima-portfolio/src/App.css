@@ -1,0 +1,36 @@
+.nav-bar {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  height: 5vh;
+  background-color: bisque;
+}
+
+.home-container {
+  height: 90vh;
+  background-color: blue;
+}
+
+.about-me {
+  height: 90vh;
+  background-color: green;
+}
+
+.tech-stack {
+  height: 90vh;
+  background-color: aqua;
+}
+
+.projects-container {
+  height: 100vh;
+  background-color: greenyellow;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.contact-container {
+  height: 100vh;
+  background-color: brown;
+}
