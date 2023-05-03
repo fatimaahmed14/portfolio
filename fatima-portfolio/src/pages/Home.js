@@ -2,7 +2,7 @@ import "../App.css";
 function Home() {
   return (
     <div className="home-container">
-      <h1>Hi, I'm Fatima</h1>
+      <h1>Fatima Ahmed</h1>
     </div>
   );
 }
