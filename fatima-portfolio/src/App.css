@@ -1,3 +1,17 @@
+body::-webkit-scrollbar {
+  width: 10px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+body::-webkit-scrollbar:hover {
+  opacity: 1;
+}
+
+body:hover::-webkit-scrollbar {
+  opacity: 1;
+}
+
 .nav-bar {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -9,22 +23,19 @@
 }
 
 .home-container {
-  height: 90vh;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: blue;
 }
 
 h1 {
-  width: 500px;
-  height: 100px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-top: -100px;
-  margin-left: -100px;
+  font-size: 150px;
 }
 
 .about-me {
-  height: 90vh;
+  height: 100vh;
   background-color: green;
 }
 
@@ -40,7 +51,7 @@ h1 {
 }
 
 .projects-container {
-  height: 90vh;
+  height: 100vh;
   background-color: greenyellow;
   display: grid;
   grid-template-rows: repeat(2, 1fr);

@@ -7,7 +7,7 @@ import Contact from "./pages/Contact";
 
 function App() {
   return (
-    <>
+    <body>
       <Navbar />
       <div id="home-section">
         <Home />
@@ -24,7 +24,7 @@ function App() {
       <div id="contact-section">
         <Contact />
       </div>
-    </>
+    </body>
   );
 }
 
