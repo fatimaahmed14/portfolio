@@ -4,7 +4,7 @@ import "../App.css";
 function Projects() {
   return (
     <>
-      <div className="title">explore my projects</div>
+      <div className="title">explore my projects 🚀</div>
       <div className="projects-container">
         <div className="list-it-out">
           <div className="thumb-nail">

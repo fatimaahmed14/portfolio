@@ -1,6 +1,13 @@
+import React, { useState } from "react";
 import "../App.css";
 
-function Navbar() {
+const Navbar = () => {
+  const [showSections, setShowSections] = useState(false);
+
+  const toggleSections = () => {
+    setShowSections(!showSections);
+  };
+
   const scrollToSection = (sectionId) => {
     const section = document.getElementById(sectionId);
     if (section) {
@@ -10,18 +17,25 @@ function Navbar() {
 
   return (
     <div className="nav-bar">
-      <button onClick={() => scrollToSection("about-section")}>About</button>
-      <button onClick={() => scrollToSection("tech-stack-section")}>
-        Tech-stack
-      </button>
-      <button onClick={() => scrollToSection("projects-section")}>
-        Projects
-      </button>
-      <button onClick={() => scrollToSection("contact-section")}>
-        Contact
-      </button>
+      <button onClick={toggleSections}>❓</button>
+      {showSections && (
+        <div className="pop-out-sections">
+          <button onClick={() => scrollToSection("about-section")}>
+            About
+          </button>
+          <button onClick={() => scrollToSection("tech-stack-section")}>
+            Tech-stack
+          </button>
+          <button onClick={() => scrollToSection("projects-section")}>
+            Projects
+          </button>
+          <button onClick={() => scrollToSection("contact-section")}>
+            Contact
+          </button>
+        </div>
+      )}
     </div>
   );
-}
+};
 
 export default Navbar;

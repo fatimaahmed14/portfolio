@@ -12,16 +12,21 @@ body:hover::-webkit-scrollbar {
   opacity: 1;
 }
 
+/* Nav Bar Styling */
 .nav-bar {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   position: -webkit-sticky;
   position: sticky;
   top: 0;
+  right: 0;
   height: 5vh;
-  background-color: bisque;
+}
+.pop-out-sections {
+  height: 5vh;
 }
 
+/* Home Page Styling */
 .home-container {
   height: 100vh;
   display: flex;
@@ -34,22 +39,59 @@ h1 {
   font-size: 150px;
 }
 
+/* About Me Page Styling */
 .about-me {
-  height: 100vh;
+  height: 90vh;
   background-color: green;
 }
 
+/* Tech Stack Page Styling */
 .tech-stack {
   height: 90vh;
   background-color: aqua;
   display: grid;
   grid-template-columns: repeat(8, 1fr);
+  justify-content: center;
 }
 
+.coloumn {
+  display: flex;
+  position: relative;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: flex-end;
+  height: 90vh;
+}
+
+.react,
+.javascript {
+  height: 125px;
+  width: 125px;
+  position: absolute;
+  background-color: grey;
+  border-radius: 25px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.react {
+  bottom: 15px;
+}
+
+.javascript {
+  bottom: 145px;
+}
+
+/* Styling For All Titles On Pages */
 .title {
   height: 10vh;
+  font-size: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+/* Project Page Styling */
 .projects-container {
   height: 100vh;
   background-color: greenyellow;
@@ -63,14 +105,10 @@ h1 {
   grid-template-columns: repeat(2, 1fr);
 }
 
+/* Contact Page Styling */
 .contact-container {
   height: 70vh;
   background-color: brown;
-  display: grid;
-  grid-template-rows: repeat(2, 1fr);
-}
-
-.contact-points-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
