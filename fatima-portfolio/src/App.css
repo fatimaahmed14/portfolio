@@ -51,7 +51,6 @@ h1 {
 /* Tech Stack Page Styling */
 .tech-stack {
   height: 90vh;
-  background-color: aqua;
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   justify-content: center;
