@@ -20,16 +20,28 @@ const Navbar = () => {
       <button onClick={toggleSections}>❓</button>
       {showSections && (
         <div className="pop-out-sections">
-          <button onClick={() => scrollToSection("about-section")}>
+          <button
+            className="about-button"
+            onClick={() => scrollToSection("about-section")}
+          >
             About
           </button>
-          <button onClick={() => scrollToSection("tech-stack-section")}>
+          <button
+            className="techstack-button"
+            onClick={() => scrollToSection("tech-stack-section")}
+          >
             Tech-stack
           </button>
-          <button onClick={() => scrollToSection("projects-section")}>
+          <button
+            className="project-button"
+            onClick={() => scrollToSection("projects-section")}
+          >
             Projects
           </button>
-          <button onClick={() => scrollToSection("contact-section")}>
+          <button
+            className="contacts-button"
+            onClick={() => scrollToSection("contact-section")}
+          >
             Contact
           </button>
         </div>

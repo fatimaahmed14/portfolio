@@ -7,27 +7,27 @@ function Techstack() {
       <div className="tech-stack">
         <div className="coloumn"></div>
         <div className="coloumn">
-          <div className="react">🛠️</div>
+          <div className="layer-1">🛠️</div>
           <div className="javascript">🛠️</div>
         </div>
         <div className="coloumn">
-          <div className="react">🛠️</div>
+          <div className="layer-1">🛠️</div>
           <div className="javascript">🛠️</div>
         </div>
         <div className="coloumn">
-          <div className="react">🛠️</div>
+          <div className="layer-1">🛠️</div>
           <div className="javascript">🛠️</div>
         </div>
         <div className="coloumn">
-          <div className="react">🛠️</div>
+          <div className="layer-1">🛠️</div>
           <div className="javascript">🛠️</div>
         </div>
         <div className="coloumn">
-          <div className="react">🛠️</div>
+          <div className="layer-1">🛠️</div>
           <div className="javascript">🛠️</div>
         </div>
         <div className="coloumn">
-          <div className="react">🛠️</div>
+          <div className="layer-1">🛠️</div>
           <div className="javascript">🛠️</div>
         </div>
         <div className="coloumn">🛠️</div>

@@ -22,7 +22,10 @@ body:hover::-webkit-scrollbar {
   right: 0;
   height: 5vh;
 }
-.pop-out-sections {
+.about-button,
+.techstack-button,
+.project-button,
+.contacts-button {
   height: 5vh;
 }
 
@@ -63,7 +66,7 @@ h1 {
   height: 90vh;
 }
 
-.react,
+.layer-1,
 .javascript {
   height: 125px;
   width: 125px;
@@ -74,8 +77,8 @@ h1 {
   margin-bottom: 5px;
 }
 
-.react {
-  bottom: 15px;
+.layer-1 {
+  bottom: npm run start15px;
 }
 
 .javascript {
@@ -92,17 +95,44 @@ h1 {
 }
 
 /* Project Page Styling */
+
 .projects-container {
   height: 100vh;
   background-color: greenyellow;
   display: grid;
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
 }
 
-.list-it-out,
-.planet-project {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+.project-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+}
+
+.project-card .thumbnail {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.project-description {
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+.title {
+  text-align: center;
+  font-size: 24px;
+  margin: 20px 0;
 }
 
 /* Contact Page Styling */
