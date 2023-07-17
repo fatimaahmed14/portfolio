@@ -3,7 +3,7 @@ import "../App.css";
 function Techstack() {
   return (
     <>
-      <div className="title">My Tech Stack 💻</div>
+      <h2 className="title">My Tech Stack 💻</h2>
       <div className="tech-stack">
         <div className="column"></div>
         <div className="column">

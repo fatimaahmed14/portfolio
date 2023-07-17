@@ -35,7 +35,6 @@ body:hover::-webkit-scrollbar {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: blue;
 }
 
 h1 {
@@ -45,7 +44,15 @@ h1 {
 /* About Me Page Styling */
 .about-me {
   height: 90vh;
-  background-color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  text-align: center;
+  font-size: 25px;
+  line-height: 1.5;
 }
 
 /* Tech Stack Page Styling */
@@ -75,19 +82,11 @@ h1 {
   margin-top: 0;
 }
 
-.title {
-  text-align: center;
-  font-size: 24px;
-  margin: 20px 0;
-}
-
 /* Styling For All Titles On Pages */
 .title {
-  height: 10vh;
-  font-size: 70px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
+  font-size: 50px;
+  margin: 20px 0;
 }
 
 /* Project Page Styling */
@@ -122,12 +121,6 @@ h1 {
   font-size: 16px;
   line-height: 1.5;
   color: #333;
-}
-
-.title {
-  text-align: center;
-  font-size: 24px;
-  margin: 20px 0;
 }
 
 /* Contact Page Styling */
@@ -172,3 +165,23 @@ h1 {
 .contact-button-email {
   background-color: red;
 }
+
+/* To Do List: */
+
+/* Background ? Gradual gradient from the most dark/ staurated colour as ghe scroll happenns the colour chnages 
+OR blue + red gradient => red and yellow => yellow and green => green and purple so forth
+creat e coherent back grouns experience  */
+
+/* Research fonts that work together one for titled + one for chunks of text */
+/* Experiment with text heights for both titles and block fo text keep to 2 options at most 3? */
+
+/* Find icons for tech stack to insert in block */
+/* Insert animation for blocks to fall from the sky when user scrolls / look into it  */
+
+/* Write up about me text => ARGHH I don't like speaking about myself :( */
+/* Need to work on descriptiions of my projects + insert github link + live page link + row of tech used */
+/* Mock up a quick grid for the about the project section to set out all ^ these links  */
+
+/* Add standard links for linkedin and github */
+/* Find out how to add link for email using JSX + links */
+/* Make section smaller => not loving the height of it BUT experiment with it once scroll has been added  */
