@@ -98,7 +98,6 @@ h1 {
 
 .projects-container {
   height: 100vh;
-  background-color: greenyellow;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
@@ -138,7 +137,31 @@ h1 {
 /* Contact Page Styling */
 .contact-container {
   height: 70vh;
-  background-color: brown;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-button-linkedin,
+.contact-button-github,
+.contact-button-email {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: green;
+  color: white;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-button-linkedin:hover,
+.contact-button-github:hover,
+.contact-button-email:hover {
+  background-color: darkgreen;
 }

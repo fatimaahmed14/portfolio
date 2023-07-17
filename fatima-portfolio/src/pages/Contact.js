@@ -1,13 +1,14 @@
+import React from "react";
 import "../App.css";
 
 function Contact() {
   return (
     <div>
-      <div className="title">contact me ☎️</div>
+      <div className="title">Contact Me ☎️</div>
       <div className="contact-container">
-        <div>linkdin</div>
-        <div>github</div>
-        <div>email</div>
+        <div className="contact-button-linkedin">LinkedIn</div>
+        <div className="contact-button-github">GitHub</div>
+        <div className="contact-button-email">Email</div>
       </div>
     </div>
   );
