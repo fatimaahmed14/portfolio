@@ -18,15 +18,44 @@ body:hover::-webkit-scrollbar {
   grid-template-columns: repeat(4, 1fr);
   position: -webkit-sticky;
   position: sticky;
+  position: absolute;
   top: 0;
   right: 0;
   height: 5vh;
 }
+
+.question-mark-button {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border-radius: 5px;
+  border-color: red;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.pop-out-section {
+  /* work out how to separate the button options */
+}
+
 .about-button,
 .techstack-button,
 .project-button,
 .contacts-button {
   height: 5vh;
+  background-color: white;
+  border-color: red;
+  color: red;
+  border-radius: 5px;
+  width: 100px;
+}
+
+.about-button:hover,
+.techstack-button:hover,
+.project-button:hover,
+.contacts-button:hover {
+  background-color: orange;
 }
 
 /* Home Page Styling */
@@ -51,7 +80,7 @@ h1 {
 
 .text {
   text-align: center;
-  font-size: 25px;
+  font-size: 20px;
   line-height: 1.5;
 }
 
@@ -118,7 +147,7 @@ h1 {
 
 .project-description {
   text-align: center;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 1.5;
   color: #333;
 }
@@ -143,7 +172,7 @@ h1 {
   height: 100%;
   color: white;
   border-radius: 10px;
-  font-size: 16px;
+  font-size: 20px;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }

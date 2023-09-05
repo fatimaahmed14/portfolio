@@ -2,10 +2,17 @@ import React, { useState } from "react";
 import "../App.css";
 
 const Navbar = () => {
+  const [showQuestionButton, setshowQuestionButton] = useState(true);
   const [showSections, setShowSections] = useState(false);
 
   const toggleSections = () => {
-    setShowSections(!showSections);
+    setShowSections(true);
+    setshowQuestionButton(false);
+
+    setTimeout(() => {
+      setShowSections(false);
+      setshowQuestionButton(true);
+    }, 2000);
   };
 
   const scrollToSection = (sectionId) => {
@@ -17,7 +24,11 @@ const Navbar = () => {
 
   return (
     <div className="nav-bar">
-      <button onClick={toggleSections}>❓</button>
+      {showQuestionButton && (
+        <button className="question-mark-button" onClick={toggleSections}>
+          ❓
+        </button>
+      )}
       {showSections && (
         <div className="pop-out-sections">
           <button

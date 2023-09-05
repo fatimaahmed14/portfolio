@@ -6,9 +6,24 @@ function Contact() {
     <div>
       <h2 className="title">Contact Me ☎️</h2>
       <div className="contact-container">
-        <div className="contact-button-linkedin">LinkedIn</div>
-        <div className="contact-button-github">GitHub</div>
-        <div className="contact-button-email">Email</div>
+        <a
+          href="https://linkedin.com/in/fatima-b-ahmed/"
+          className="contact-button-linkedin"
+        >
+          <div>LinkedIn</div>
+        </a>
+        <a
+          href="https://github.com/fatimaahmed14"
+          className="contact-button-github"
+        >
+          <div>GitHub</div>
+        </a>
+        <a
+          href="mailto:fxtimaahmed14@gmail.com"
+          className="contact-button-email"
+        >
+          <div>Email</div>
+        </a>
       </div>
     </div>
   );
