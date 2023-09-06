@@ -16,6 +16,14 @@ function Techstack() {
               height="100px"
             />
           </div>
+          <div className="chartJs">
+            <img
+              alt="chartJs"
+              src="https://www.chartjs.org/img/chartjs-logo.svg"
+              width="100px"
+              height="100px"
+            />
+          </div>
           <div className="nodeJs">
             <img
               alt="nodeJs"
@@ -79,7 +87,12 @@ function Techstack() {
             />
           </div>
           <div className="insomnia">
-            <img alt="insomnia" src="" width="100px" height="100px" />
+            <img
+              alt="insomnia"
+              src="https://seeklogo.com/images/I/insomnia-logo-A35E09EB19-seeklogo.com.png"
+              width="100px"
+              height="100px"
+            />
           </div>
           <div className="git">
             <img
@@ -90,10 +103,20 @@ function Techstack() {
             />
           </div>
           <div className="prisma">
-            <img alt="prisma" src="" width="100px" height="100px" />
+            <img
+              alt="prisma"
+              src="https://cdn-1.webcatalog.io/catalog/prisma-data-platform/prisma-data-platform-icon-filled-256.png?v=1675593236933"
+              width="100px"
+              height="100px"
+            />
           </div>
           <div className="chartJs">
-            <img alt="chartJs" src="" width="100px" height="100px" />
+            <img
+              alt="chartJs"
+              src="https://www.chartjs.org/img/chartjs-logo.svg"
+              width="100px"
+              height="100px"
+            />
           </div>
         </div>
         <div className="column">

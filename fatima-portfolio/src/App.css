@@ -112,14 +112,13 @@ h1 {
 .prisma,
 .chartJs,
 .tdd,
-.opp,
+.oop,
 .vscode,
 .npm,
-.github,
-.blank {
+.github {
   height: 125px;
   width: 125px;
-  background-color: grey;
+  background-color: lightgray;
   border-radius: 25px;
   margin-top: 5px;
 }
