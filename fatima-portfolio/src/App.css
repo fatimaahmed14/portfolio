@@ -14,8 +14,6 @@ body:hover::-webkit-scrollbar {
 
 /* Nav Bar Styling */
 .nav-bar {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
   position: -webkit-sticky;
   position: sticky;
   position: absolute;
@@ -36,7 +34,9 @@ body:hover::-webkit-scrollbar {
 }
 
 .pop-out-section {
-  /* work out how to separate the button options */
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  /* work out how to separate the button */
 }
 
 .about-button,
@@ -99,7 +99,24 @@ h1 {
   align-items: center;
 }
 
-.javascript {
+.javascript,
+.nodeJs,
+.html,
+.css,
+.react,
+.expressJs,
+.jasmine,
+.postgreSQL,
+.insomnia,
+.git,
+.prisma,
+.chartJs,
+.tdd,
+.opp,
+.vscode,
+.npm,
+.github,
+.blank {
   height: 125px;
   width: 125px;
   background-color: grey;
