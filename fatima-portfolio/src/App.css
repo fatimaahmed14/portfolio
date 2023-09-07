@@ -34,9 +34,6 @@ body:hover::-webkit-scrollbar {
 }
 
 .pop-out-section {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  /* work out how to separate the button */
 }
 
 .about-button,
@@ -67,7 +64,7 @@ body:hover::-webkit-scrollbar {
 }
 
 h1 {
-  font-size: 150px;
+  font-size: 190px;
 }
 
 /* About Me Page Styling */
@@ -76,11 +73,12 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  /* background-image: linear-gradient(to right, red, yellow); */
 }
 
 .text {
   text-align: center;
-  font-size: 20px;
+  font-size: 30px;
   line-height: 1.5;
 }
 
@@ -118,9 +116,20 @@ h1 {
 .github {
   height: 125px;
   width: 125px;
-  background-color: lightgray;
+  border: solid;
   border-radius: 25px;
   margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tdd,
+.oop {
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .layer-1:nth-child(1) {
